@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    
+    <meta charset="utf-8">
+    <title>SnakeHACK</title>
+    <link rel="stylesheet" href="snake.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/528bf7c985.js" crossorigin="anonymous"></script>
+    <script src="snake.js" defer></script>
+  </head>
+
+  <div id="nav">
+    <img src="images/Untitled_design__13_-removebg-preview.png">
+    <label class="logo">WaveCryptHub</label>
+    <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+
+    <ul class="ul-nav">
+    <li><a class="nav_link" href="index.html">Home</a></li>
+    <li><a class="nav_link" href="ctf.html">CTF</a></li>
+    <li><a class="nav_link" href="blog.html">BLOG</a></li>
+    <li><a class="nav_link" href="services.html">SERVICES</a></li>
+    <li><a class="nav_link" href="events.html">EVENTS</a></li>
+    <li><button onclick="window.location. href='login.html'" class="btnLogin-popup">Login</button></li>
+    </ul>
+    </a> 
+
+    
+  </div>
+  <body>
+    <div class="wrapper">
+      <div class="game-details">
+        <span class="score">Score: 0</span>
+        <span class="high-score">High Score: 0</span>
+      </div>
+      <div class="play-board"></div>
+      <div class="controls">
+        <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+        <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+        <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+        <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+      </div>
+    </div>
+
+  </body>
+</html>
